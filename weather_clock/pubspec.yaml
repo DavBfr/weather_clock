@@ -1,0 +1,31 @@
+name: weather_clock
+description: A Digital clock with dynamic weather information.
+homepage: https://github.com/DavBfr/flutter_clock
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_clock_helper:
+    path: ../flutter_clock_helper
+  intl: ^0.16.1
+  spritewidget: ^0.9.23
+  provider: ^4.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  pedantic: ^1.8.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: fonts/OpenSans-Regular.ttf
+
+  assets:
+    - assets/
