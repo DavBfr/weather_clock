@@ -1,5 +1,7 @@
 # Weather Clock
 
+<img alt="Badge" src="157970851970.png" width="150" style="float:right;margin-bottom:20px">
+
 A clock designed for the [Flutter Clock challenge](https://flutter.dev/clock)
 
 ![Demo](https://media.githubusercontent.com/media/DavBfr/weather_clock/master/weather_clock.gif)
